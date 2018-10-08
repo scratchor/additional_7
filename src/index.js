@@ -20,7 +20,6 @@ module.exports = function solveSudoku(matrix) {
           sum+=answer[i][j];
           sum1+=answer[j][i];
         }
-
         if(num >= 1000) {
             return answer;
         }
